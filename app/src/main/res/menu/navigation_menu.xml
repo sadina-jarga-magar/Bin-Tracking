@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+    <item android:id="@+id/my_account"
+        android:title="@string/my_account"
+        android:icon="@drawable/ic_account_24dp"/>
+        <item android:id="@+id/Post_game"
+            android:title="Game Post"
+            android:background="@drawable/roundbutton"
+            android:icon="@drawable/game_play_24dp"/>
+        <item android:id="@+id/play_game"
+            android:title="Play Game"
+            android:background="@drawable/roundbutton"
+            android:icon="@drawable/ic_games_black_24dp"/>
+        <item android:id="@+id/winner_list"
+            android:title="Reward Score"
+            android:background="@drawable/roundbutton"
+            android:icon="@drawable/top_player_24dp"/>
+        <item android:id="@+id/live_chat"
+            android:title="Live Chat"
+            android:background="@drawable/roundbutton"
+            android:icon="@drawable/ic_message_black_24dp"/>
+    <item android:id="@+id/change_password"
+        android:title="Change Password"
+        android:background="@drawable/roundbutton"
+        android:icon="@drawable/ic_changepassword_24dp"/>
+    <item android:id="@+id/change_email"
+        android:title="Change Email"
+        android:background="@drawable/roundbutton"
+        android:icon="@drawable/ic_changeemail_24dp"/>
+        <item android:id="@+id/location_map"
+            android:title="Map Location"
+            android:background="@drawable/roundbutton"
+            android:icon="@drawable/ic_location_24dp"/>
+        <item android:id="@+id/account_logout"
+        android:title="Logout"
+            android:background="@drawable/roundbutton"
+        android:icon="@drawable/ic_signout_24dp"/>
+    </group>
+    <group>
+
+
+    <item android:id="@+id/admin"
+        android:title="Devloper"
+        android:icon="@drawable/admin_24dp"/>
+    <item android:id="@+id/Help"
+        android:title="Help"
+        android:icon="@drawable/help_24dp"/>
+</group>
+
+
+</menu>

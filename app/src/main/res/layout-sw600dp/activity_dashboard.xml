@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gamepoint.com.bintracking.activity.DashboardActivity">
+
+
+    <ImageView
+        android:id="@+id/eventadd"
+        android:layout_width="166dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="92dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/icon_password"
+        />
+
+    <ImageView
+        android:id="@+id/mapadd"
+        android:layout_width="167dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/eventadd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.91"
+        app:srcCompat="@drawable/logo_gps"
+         />
+
+    <ImageView
+        android:id="@+id/chatadd"
+        android:layout_width="176dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="152dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.428"
+        app:srcCompat="@drawable/logo_chat"
+         />
+
+    <ImageView
+        android:id="@+id/blogview"
+        android:layout_width="174dp"
+        android:layout_height="124dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chatadd"
+        app:layout_constraintVertical_bias="0.292"
+        app:srcCompat="@drawable/icon_blog"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

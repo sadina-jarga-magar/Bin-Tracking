@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="upload here!!"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        android:padding="10dp"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/regUserPhoto"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/userphoto"/>
+        <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundbutton"
+        android:layout_marginTop="20dip"
+        android:text="upload image"
+        android:textColor="@color/white" />
+</LinearLayout>
