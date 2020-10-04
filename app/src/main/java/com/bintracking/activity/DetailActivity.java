@@ -9,7 +9,8 @@ import android.widget.ProgressBar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.gamepoint.R;
+import com.bintracking.R;
+
 
 public class DetailActivity extends AppCompatActivity {
 

@@ -13,8 +13,9 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 
+import com.bintracking.R;
 import com.bintracking.data.User;
-import com.gamepoint.R;
+import com.bintracking.R;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;

@@ -15,10 +15,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 
+import com.bintracking.R;
 import com.bintracking.data.EventAPI;
 import com.bintracking.data.PostList;
 import com.bintracking.util.ShakeDetector;
-import com.gamepoint.R;
+
+
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 

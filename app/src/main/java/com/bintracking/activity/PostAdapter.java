@@ -10,9 +10,10 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.bintracking.R;
 import com.bintracking.data.Item;
 import com.bumptech.glide.Glide;
-import com.gamepoint.R;
+
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

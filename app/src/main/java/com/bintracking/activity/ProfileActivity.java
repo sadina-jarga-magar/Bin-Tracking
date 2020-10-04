@@ -4,7 +4,8 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.gamepoint.R;
+import com.bintracking.R;
+
 
 /**
 

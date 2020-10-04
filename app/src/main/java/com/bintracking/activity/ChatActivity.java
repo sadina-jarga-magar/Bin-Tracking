@@ -16,8 +16,9 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
 
+import com.bintracking.R;
 import com.bintracking.model.ChatMessage;
-import com.gamepoint.R;
+
 
 import com.firebase.ui.database.FirebaseListAdapter;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;

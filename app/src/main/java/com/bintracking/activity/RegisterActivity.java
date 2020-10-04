@@ -22,8 +22,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
+import com.bintracking.R;
 import com.bintracking.util.ShakeDetector;
-import com.gamepoint.R;
+
 import com.bintracking.model.UserSave;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;

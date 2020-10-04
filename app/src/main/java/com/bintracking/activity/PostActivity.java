@@ -23,10 +23,11 @@ import androidx.appcompat.widget.SearchView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.bintracking.R;
 import com.bintracking.model.GameList;
 import com.bintracking.util.ShakeDetector;
 import com.bintracking.view.ViewHolder;
-import com.gamepoint.R;
+
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;

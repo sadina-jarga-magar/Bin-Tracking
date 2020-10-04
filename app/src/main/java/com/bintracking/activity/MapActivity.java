@@ -14,9 +14,10 @@ import android.view.WindowManager;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
+import com.bintracking.R;
 import com.bintracking.data.User;
 import com.bintracking.util.GoogleMapHelper;
-import com.gamepoint.R;
+
 import com.bintracking.clusterRenderer.MarkerClusterRenderer;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;

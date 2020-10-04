@@ -19,8 +19,9 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 
+import com.bintracking.R;
 import com.bintracking.util.ShakeDetector;
-import com.gamepoint.R;
+
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;

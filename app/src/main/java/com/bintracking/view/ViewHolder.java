@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.gamepoint.R;
+import com.bintracking.R;
 import com.squareup.picasso.Picasso;
 
 public class ViewHolder extends RecyclerView.ViewHolder {

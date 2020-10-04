@@ -18,7 +18,8 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.gamepoint.R;
+
+import com.bintracking.R;
 
 import java.io.File;
 import java.io.FileOutputStream;

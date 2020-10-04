@@ -6,7 +6,7 @@ import android.os.Handler;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.gamepoint.R;
+import com.bintracking.R;
 
 
 public class SplashActivity extends AppCompatActivity {
