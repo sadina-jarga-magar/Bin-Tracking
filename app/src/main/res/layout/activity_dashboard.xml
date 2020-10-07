@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context="com.gamepoint.com.bintracking.activity.DashboardActivity">
 
 
@@ -12,23 +13,23 @@
         android:layout_width="166dp"
         android:layout_height="131dp"
         android:layout_marginStart="36dp"
-        android:layout_marginBottom="216dp"
+        android:layout_marginBottom="180dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/icon_password" />
+        app:srcCompat="@drawable/fp" />
 
     <ImageView
         android:id="@+id/mapadd"
         android:layout_width="120dp"
-        android:layout_height="133dp"
+        android:layout_height="140dp"
         android:layout_marginStart="30dp"
         app:layout_constraintBottom_toTopOf="@+id/eventadd"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.068"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.741"
-        app:srcCompat="@drawable/trackbin" />
+        app:layout_constraintVertical_bias="0.541"
+        app:srcCompat="@drawable/binbg" />
 
     <ImageView
         android:id="@+id/chatadd"
@@ -41,8 +42,8 @@
         app:layout_constraintHorizontal_bias="0.304"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.311"
-        app:srcCompat="@drawable/logo_chat" />
+        app:layout_constraintVertical_bias="0.255"
+        app:srcCompat="@drawable/chat" />
 
     <ImageView
         android:id="@+id/blogview"
@@ -52,6 +53,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/chatadd"
-        app:layout_constraintVertical_bias="0.225"
-        app:srcCompat="@drawable/icon_blog" />
+        app:layout_constraintVertical_bias="0.446"
+        app:srcCompat="@drawable/logout" />
 </androidx.constraintlayout.widget.ConstraintLayout>
